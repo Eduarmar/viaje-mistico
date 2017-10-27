@@ -61,6 +61,12 @@ li{
        border-right:1px solid #16222c;
   }
 
+#ricardo img{
+  border-color: blue;
+  border-width: medium;
+  border-style: solid;
+}
+
 #preventas h1{
   color: red;
   background: none;
