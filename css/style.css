@@ -56,6 +56,15 @@ li{
 }
 
 
+#rojo{
+  background-color: red;
+  color: white;
+}
+
+#rojo .row{
+  padding: 0;
+}
+
 .diVer {
 
        border-right:1px solid #16222c;
