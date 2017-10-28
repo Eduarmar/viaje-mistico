@@ -56,10 +56,14 @@ li{
 }
 
 .azul{
-  background-color: #385AAC
+  background-color: #385AAC;
 }
 
-#entrenamiento p{color: white;}
+#cuando p{
+  font-size: 18px;
+}
+
+#entrenamiento p{color: white; text-align: center;}
 
 #rojo{
   background-color: red;
@@ -94,6 +98,10 @@ li{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#footer .azul{
+  background-color: #385AAC;
 }
 
 #footer .logo{}
