@@ -55,6 +55,11 @@ li{
   text-align: left;
 }
 
+.azul{
+  background-color: #385AAC
+}
+
+#entrenamiento p{color: white;}
 
 #rojo{
   background-color: red;
