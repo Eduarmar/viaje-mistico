@@ -222,6 +222,10 @@ li{
   }
 
 
+  .header .aparta{
+    margin-top: 5%;
+  }
+
   .header{
     padding: 150px 0;
   }
@@ -354,7 +358,7 @@ li{
   #testimonio h1{
     font-size: 38px;
   }
-  
+
 
 }
 

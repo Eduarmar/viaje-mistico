@@ -45,7 +45,14 @@
             <h2 style="margin-top:45px; font-weight:bold;">Aparta tu puesto</h2>
           </div>
           <div class="col xl4 l4 m4 s12 center">
-            <a href="" class="btn btn-large waves-effect waves-light red">Reservar ahora</a>
+            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId"
+                type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw==" />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden"
+                value="Conferencia para vender por internet" />   <input name="referenceCode" type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase"
+                type="hidden" value="66386.00" />   <input name="currency" type="hidden" value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen"
+                value="" type="hidden" />   <input name="buttonType" value="SIMPLE" type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
+            </form>
+            <!-- <a href="" class="btn btn-large waves-effect waves-light red">Reservar ahora</a> -->
           </div>
 
         </div>
@@ -333,9 +340,16 @@
           </table>
         </div>
 
-        <div class="col l2 m12 s12 center">
+        <div class="col l2 m4 s6 center">
           <div class="reser">
-            <a href="" class="btn btn-large waves-effect waves-light red">Reservar ahora</a>
+            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId"
+                type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw==" />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden"
+                value="Conferencia para vender por internet" />   <input name="referenceCode" type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase"
+                type="hidden" value="66386.00" />   <input name="currency" type="hidden" value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen"
+                value="" type="hidden" />   <input name="buttonType" value="SIMPLE" type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
+            </form>
+            <!-- <a href="" class="btn btn-large waves-effect waves-light red">Reservar ahora</a> -->
           </div>
 
         </div>
@@ -413,7 +427,7 @@
           <img src="images/testimonio 6.png" class="materialboxed" width="100%" alt="">
         </div>
 
-</div>
+      </div>
     </div>
   </section>
 
