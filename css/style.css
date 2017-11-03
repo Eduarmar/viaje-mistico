@@ -29,6 +29,7 @@
 
 }
 
+
 h1{background: red;
 color: white;}
 
@@ -39,8 +40,19 @@ color: white;}
   font-weight: bold;
 }
 
-#header > div > div > div.col.xl6.aparta.valign-wrapper > div.col.xl7.center > h2{
-  margin: 35px 0 !important;
+.aparta h2{
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-weight:bold;
+}
+
+.aparta .boton{
+  margin-top: 4%;
+}
+
+.aparta .btn{
+  width: 100%;
+  padding: 0 0;
 }
 
 #info{
@@ -169,6 +181,10 @@ li{
     width: 90%
   }
 
+  .aparta .boton{
+    margin-top: 5%;
+  }s
+
 }
 
 @media (max-width: 1400px) {
@@ -177,6 +193,9 @@ li{
 }
 .container{
   width: 90%
+}
+.aparta .boton{
+  margin-top: 5%;
 }
 
 }
@@ -213,6 +232,9 @@ li{
 
   #descubrir img{
     width: 120%;
+  }
+  .aparta .boton{
+    margin-top: 7%;
   }
 }
 
