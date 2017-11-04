@@ -239,13 +239,13 @@ li{
 }
 
 @media (max-width: 992px) {
-  #header .valign-wrapper{
+  #header > div > div{
     display: inherit;
   }
 
 
   .header .aparta{
-    margin-top: 5%;
+    margin-top: 4%;
   }
 
   .header{
@@ -253,7 +253,7 @@ li{
   }
 
   .btn{
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .siga{
@@ -311,9 +311,21 @@ li{
       display: none;
     }
 
+    .aparta .boton{
+      margin-top: 0;
+    }
+
+    .aparta h2{
+      font-size: 35px;
+    }
+
 }
 
 @media (max-width: 600px) {
+#header > div > div > div.col.xl6.l6.m10.s12.right.aparta > div{
+  display: inherit;
+}
+
   .header{
     padding: 100px 0;
   }
@@ -327,8 +339,8 @@ li{
   }
 
   .btn{
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 0px;
+
   }
 
   .icono{
