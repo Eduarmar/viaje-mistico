@@ -11,7 +11,7 @@
 .header{
 
   height: 850px;
-  background-image: url(../images/header.png);
+  background-image: url(../images/header2.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +20,11 @@
 
 .boton1{
   width: 300px;
+}
+
+.invito{
+
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 .logo{
@@ -35,7 +40,7 @@ color: white;}
 
 .header .aparta{
   margin-top: 8%;
-  background-color: rgba(94, 122, 186, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #FFFF00;
   font-weight: bold;
 }
@@ -161,6 +166,15 @@ li{
 
 .abajo{
   padding-top: 80px;
+}
+
+#footer p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer > div > div > div{
+  margin-bottom: 0;
 }
 
 .container{
