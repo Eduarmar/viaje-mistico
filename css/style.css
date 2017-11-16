@@ -181,10 +181,15 @@ li{
   width: 90%
 }
 
+.boton2{
+  display: none;
+}
+
 @media (min-width: 1620px){
   #descubrir img{
     width: 120%;
   }
+
 }
 
 @media (max-width: 1590px) {
@@ -197,7 +202,7 @@ li{
 
   .aparta .boton{
     margin-top: 5%;
-  }s
+  }
 
 }
 
@@ -250,6 +255,11 @@ li{
   .aparta .boton{
     margin-top: 7%;
   }
+
+  #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+    padding-left: 23% !important;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -333,7 +343,37 @@ li{
       font-size: 35px;
     }
 
+    #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+      padding-left: 30%;
+    }
+
 }
+
+@media (max-width: 820px) {
+
+  #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+    padding-left: 28% !important;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+    padding-left: 26% !important;
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+    padding-left: 22% !important;
+  }
+
+}
+
 
 @media (max-width: 600px) {
 #header > div > div > div.col.xl6.l6.m10.s12.right.aparta > div{
@@ -416,15 +456,32 @@ li{
     width: 100%;
   }
 
+
+}
+
+@media (max-width: 400px) {
+#footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+  display: none;
+}
+
+.boton2{
+  display: inline !important;
+}
+
 }
 
 @media (max-width: 330px) {
   .clientes{
     margin-top: 7%;
   }
+
+  #footer > div > div > div > div > div > div.center.col.l12.boton-footer{
+    padding-left: 0 !important;
+  }
+
 }
 
-@media (max-width: 300px) {}
+
 
 
   #af-form-1269792401 .af-body .af-textWrap{width:98%;display:block;float:none;}

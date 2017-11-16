@@ -12,42 +12,65 @@
 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108068823-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108068823-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-108068823-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108068823-1');
+  </script>
 
 
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '543910125999862');
-fbq('track', 'PageView');
-</script>
-<noscript>
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '543910125999862');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
  <img height="1" width="1"
 src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
 </noscript>
-<!-- End Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
 
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoljarTkX0SScYQDm0GWrzUDGi0puXwTo&callback=initMap"
-  type="text/javascript"></script>
 
 </head>
 
 <body>
+
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 
   <section id="banner">
     <div class="row">
@@ -78,10 +101,10 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
 
         <div class="col xl6 l6 m10 s12 right aparta">
           <div class="valign-wrapper">
-          <div class="col xl12 l12 m12 s12">
-            <h4 class="center">Aprende en 2 horas como conseguir más clientes usando Facebook, Instagram y Google</h4>
-          </div>
-          <!-- <div class="col xl4 l4 m4 s12 center boton">
+            <div class="col xl12 l12 m12 s12">
+              <h4 class="center">Aprende en 2 horas como conseguir más clientes usando Facebook, Instagram y Google</h4>
+            </div>
+            <!-- <div class="col xl4 l4 m4 s12 center boton">
             <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
               <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red center" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId"
                 type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw==" />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden"
@@ -92,7 +115,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
 
 
           </div> -->
-        </div>
+          </div>
 
         </div>
 
@@ -204,8 +227,28 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
           </div>
         </div>
       </section>
+
     </div>
   </section>
+
+  <div class="container">
+    <br>
+
+  <div class="row">
+    <div class="col l10 m10 s12 push-l2 push-m3 push-s2  center">
+      <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+        <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />  
+        <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="/>
+         <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
+          type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase" type="hidden" value="66386.00" />   <input name="currency" type="hidden"
+          value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />   <input name="buttonType" value="SIMPLE"
+          type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
+      </form>
+    </div>
+    <br>
+</div>
+  </div>
+
 
   <section id="entrenamiento">
     <div class="row azul">
@@ -315,7 +358,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
         </div>
 
         <div class="col l6 m11 s12">
-          <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;">Mapa</div>
+          <!-- <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;">Mapa</div>
           <script type="text/javascript">
             function myMap() {
               var mapOptions = {
@@ -325,7 +368,22 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
               }
               var map = new google.maps.Map(document.getElementById("map"), mapOptions);
             }
+          </script> -->
+
+          <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;">Mapa</div>
+          <script>
+            function initMap() {
+              // Create a map object and specify the DOM element for display.
+              var map = new google.maps.Map(document.getElementById('map'), {
+                center: {
+                  lat: 4.6810233,
+                  lng: -74.0586983
+                },
+                zoom: 17
+              });
+            }
           </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoljarTkX0SScYQDm0GWrzUDGi0puXwTo&callback=initMap" async defer></script>
 
           <div class="center">
             <h4><span style="color:red;">Dirección: </span>Edificio Compesar Calle 94 #23-43</h4>
@@ -382,11 +440,11 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
         <div class="col l2 m4 s6 center">
           <div class="reser">
             <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId"
-                type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw==" />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden"
-                value="Conferencia para vender por internet" />   <input name="referenceCode" type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase"
-                type="hidden" value="66386.00" />   <input name="currency" type="hidden" value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen"
-                value="" type="hidden" />   <input name="buttonType" value="SIMPLE" type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
+              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="
+              />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
+                type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase" type="hidden" value="66386.00" />   <input name="currency" type="hidden"
+                value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />   <input name="buttonType" value="SIMPLE"
+                type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
             </form>
             <!-- <a href="" class="btn btn-large waves-effect waves-light red">Reservar ahora</a> -->
           </div>
@@ -466,6 +524,14 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
           <img src="images/testimonio 6.png" class="" width="100%" alt="">
         </div>
 
+        <br>
+        <br>
+
+        <div class="col l12 m12 s12 center">
+          <div class="fb-comments" data-href="http://frescosecha.co/evento-marketing/" data-width="100%" data-numposts="5"></div>
+        </div>
+
+        <br>
       </div>
     </div>
   </section>
@@ -478,12 +544,12 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
             <div class="container">
 
               <br>
-              <h3 class="center" style="color:white;">Consultas aqui</h3>
+              <h3 class="center" style="color:white;">Reserva Ya</h3>
               <br>
+              
 
 
-
-              <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
+              <!-- <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
                 <div style="display: none;">
                   <input type="hidden" name="meta_web_form_id" value="1269792401" />
                   <input type="hidden" name="meta_split_id" value="" />
@@ -517,7 +583,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
                   </div>
                 </div>
                 <div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=jExsnOycTCwMjA==" alt="" /></div>
-              </form>
+              </form> -->
 
               <br>
               <div class="center">
@@ -527,6 +593,8 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
               <p class="center" style="color:white;">Email: elgrupoalternativa@gmail.com</p>
               <p class="center" style="color:white;">Pagina: www.grupo-alternativa.com</p>
               <p class="center" style="color:white; margin-bottom:10px;">Whatsapp:320-2059932</p>
+              <br>
+              <br>
             </div>
           </div>
         </div>
