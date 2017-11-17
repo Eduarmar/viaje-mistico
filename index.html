@@ -235,9 +235,28 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
     <br>
 
   <div class="row">
-    <div class="col l10 m10 s12 push-l2 push-m3 push-s2  center">
+    <div class="col l10 m10 s12 push-l2 push-m2 center">
+      <!-- <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+        <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />  
+        <input name="buttonId" type="hidden" value="gRbzTs/9Xi/CEmUheTexaMfBmjzFNQgCYE96DrpRs4Fr3he6XusUEg=="/>
+        <input name="merchantId" type="hidden" value="583563"/>
+        <input name="accountId" type="hidden" value="586511"/>
+        <input name="description" type="hidden" value="Segunda Preventa"/>
+        <input name="referenceCode" type="hidden" value="002"/>
+        <input name="amount" type="hidden" value="147000"/>
+        <input name="tax" type="hidden" value="23471"/>
+        <input name="taxReturnBase" type="hidden" value="123529"/>
+        <input name="shipmentValue" value="0" type="hidden"/>
+        <input name="currency" type="hidden" value="COP"/>
+        <input name="lng" type="hidden" value="es"/>
+        <input name="displayShippingInformation" type="hidden" value="NO"/>
+        <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+        <input name="buttonType" value="SIMPLE" type="hidden"/>
+        <input name="signature" value="caeb260b48cf8b0088fc4350d39fc9e4392e3880fcc4064d1f849b3f447e1ca8" type="hidden"/>
+      </form> -->
+
       <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-        <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />  
+        <input type="image" border="0" alt="" src="images/reserverahora.png" class="boton" onClick="this.form.urlOrigen.value = window.location.href;"/>  
         <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="/>
          <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
           type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase" type="hidden" value="66386.00" />   <input name="currency" type="hidden"
@@ -358,32 +377,24 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
         </div>
 
         <div class="col l6 m11 s12">
-          <!-- <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;">Mapa</div>
-          <script type="text/javascript">
-            function myMap() {
-              var mapOptions = {
-                center: new google.maps.LatLng(4.6810233, -74.0586983),
-                zoom: 17,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-              }
-              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-          </script> -->
 
-          <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;">Mapa</div>
-          <script>
-            function initMap() {
-              // Create a map object and specify the DOM element for display.
-              var map = new google.maps.Map(document.getElementById('map'), {
-                center: {
-                  lat: 4.6810233,
-                  lng: -74.0586983
-                },
-                zoom: 17
-              });
-            }
-          </script>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoljarTkX0SScYQDm0GWrzUDGi0puXwTo&callback=initMap" async defer></script>
+          <div id="map" class="mapa" style="width:100%;height:400px;margin-left:35px; margin-top:35px; border-color:red; border-style:solid;"></div>
+            <script>
+              function myMap() {
+                var uluru = {lat: 4.6810233, lng: -74.0586983};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 17,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPhQdaGwhEhKiyHSsqbsM3JH2Fsh1LoYA&callback=myMap">
+            </script>
 
           <div class="center">
             <h4><span style="color:red;">Dirección: </span>Edificio Compesar Calle 94 #23-43</h4>
@@ -440,8 +451,9 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
         <div class="col l2 m4 s6 center">
           <div class="reser">
             <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />   <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="
-              />   <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
+              <input type="submit" value="Reservar ahora" class="btn btn-large waves-effect waves-light red" border="0" alt="" onClick="this.form.urlOrigen.value = window.location.href;" />  
+              <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="/>
+               <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
                 type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase" type="hidden" value="66386.00" />   <input name="currency" type="hidden"
                 value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />   <input name="buttonType" value="SIMPLE"
                 type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
@@ -528,9 +540,13 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
         <br>
 
         <div class="col l12 m12 s12 center">
+          <br>
+            <h3 class="center" style="color:black;">Deja tu comentario</h3>
+            <br>
+
           <div class="fb-comments" data-href="http://frescosecha.co/evento-marketing/" data-width="100%" data-numposts="5"></div>
         </div>
-
+        <br>
         <br>
       </div>
     </div>
@@ -544,12 +560,10 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
             <div class="container">
 
               <br>
-              <h3 class="center" style="color:white;">Reserva Ya</h3>
+              <h3 class="center" style="color:white;">Solicita más informacion</h3>
               <br>
-              
 
-
-              <!-- <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
+              <form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl">
                 <div style="display: none;">
                   <input type="hidden" name="meta_web_form_id" value="1269792401" />
                   <input type="hidden" name="meta_split_id" value="" />
@@ -583,7 +597,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
                   </div>
                 </div>
                 <div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=jExsnOycTCwMjA==" alt="" /></div>
-              </form> -->
+              </form>
 
               <br>
               <div class="center">
@@ -593,9 +607,18 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
               <p class="center" style="color:white;">Email: elgrupoalternativa@gmail.com</p>
               <p class="center" style="color:white;">Pagina: www.grupo-alternativa.com</p>
               <p class="center" style="color:white; margin-bottom:10px;">Whatsapp:320-2059932</p>
-              <br>
-              <br>
+
             </div>
+          </div>
+          <div class="col l5 m8 s12 push-m2 push-l2">
+            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+              <input type="image" border="0" alt="" src="images/reserverahora.png" class="boton" onClick="this.form.urlOrigen.value = window.location.href;"/>  
+              <input name="buttonId" type="hidden" value="8f9gxFfuZl8ljreS/wroY/syg0NktWz9ZEK5txClobtn1JFW6ybbiw=="/>
+               <input name="merchantId" type="hidden" value="583563" />   <input name="accountId" type="hidden" value="586511" />   <input name="description" type="hidden" value="Conferencia para vender por internet" />   <input name="referenceCode"
+                type="hidden" value="Más clientes" />   <input name="amount" type="hidden" value="79000" />   <input name="tax" type="hidden" value="12614" />   <input name="taxReturnBase" type="hidden" value="66386.00" />   <input name="currency" type="hidden"
+                value="COP" />   <input name="lng" type="hidden" value="es" />   <input name="displayShippingInformation" type="hidden" value="NO" />   <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />   <input name="buttonType" value="SIMPLE"
+                type="hidden" />   <input name="signature" value="1d8321bfc31f6d4194bead08b614f5dd5eaf8f7aa10039558de4f441dc139d5d" type="hidden" />
+            </form>
           </div>
         </div>
       </div>
@@ -606,7 +629,7 @@ src="https://www.facebook.com/tr?id=543910125999862&ev=PageView&noscript=1"/>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 
   <script type="text/javascript">
     $(document).ready(function() {
